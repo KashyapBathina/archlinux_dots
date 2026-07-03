@@ -1,0 +1,33 @@
+{
+  "reload_style_on_change": true,
+  "layer": "top",
+  "position": "top",
+  "spacing": 0,
+  "margin-top": 4,
+  "height": 26,
+  "include": [
+    "~/.config/waybar/themes/custom2/modules.json"
+  ],
+  "modules-left": [
+    "custom/arch", 
+    "hyprland/workspaces", 
+    "hyprland/window",
+    "mpris"
+  ],
+  "modules-center": [
+    "clock", 
+    "custom/updates", 
+  ],
+  "modules-right": [
+    //"mpris",
+    //"tray",
+    //"custom/weather",
+    "memory",
+    //"backlight",
+    "network",
+    "bluetooth",
+    "pulseaudio",
+    //"cpu",
+    "battery"
+  ],
+}
